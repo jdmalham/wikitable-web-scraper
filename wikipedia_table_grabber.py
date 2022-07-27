@@ -30,7 +30,7 @@ def save_to_csv(*args):
     return
 
 
-class TestApp(ttk.Frame):
+class TableFrame(ttk.Frame):
         
     def __init__(self, master):
         ttk.Frame.__init__(self,master)
@@ -44,7 +44,7 @@ class TestApp(ttk.Frame):
         return
 
 def show_data(*args):
-    display_frame = TestApp(root)
+    display_frame = TableFrame(root)
     return
 
 root = Tk()
