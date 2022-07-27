@@ -70,9 +70,3 @@ for child in mainframe.winfo_children():
     child.grid_configure(padx=5, pady=5)
 
 root.mainloop()
-
-#Quick explanation. Here's the general sequence of events
-#1. Define functions
-#2. Make initial frame
-#3. Create frame with web data in it
-#4. Add frame
