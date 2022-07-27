@@ -13,7 +13,6 @@ def source_get(url_arg):
 def calculate(*args):
     try:
         url_in = url.get()
-        file_in = file_name.get()
         
         source_code = source_get(url_in)    
         info = source_code.find("table", class_="wikitable")
